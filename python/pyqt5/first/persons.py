@@ -131,7 +131,7 @@ class PrimaryTab(QWidget):
         self.setLayout(mainLayout)
 
     def bplPushClicked(self):
-        print('Clicked button')
+        print('Clicked button Заполнить')
         self.birthGrid.removeWidget(self.bplPush)
         self.bplPush.setVisible(False)
         self.bplLbl1 = QLabel('630001 г. Новосибирск, улица Ельцовкая, д. 4, кв. 101')

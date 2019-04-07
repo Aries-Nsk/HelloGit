@@ -1,4 +1,4 @@
-import pandas
+import python.pandas
 
 
 import pandas_datareader as pdr
