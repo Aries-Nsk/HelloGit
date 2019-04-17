@@ -149,6 +149,8 @@ class TrainingTab(QWidget):
         super(TrainingTab, self).__init__()
         pass
 
+
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     ex = Person()
