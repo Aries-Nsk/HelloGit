@@ -78,7 +78,7 @@ class Example(QDialog):
 
         self.gridGroupBox = QGroupBox(u'Сеточное размещение')
         layout = QGridLayout()
-
+#
         labels1 = QLabel(u'Line : 1')
         lineEdits1 = QLineEdit()
         layout.addWidget(labels1, 1, 0)
